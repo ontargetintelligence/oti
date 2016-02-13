@@ -32,12 +32,12 @@ p {
 }
 
 a, a:focus, a:active {
-    color: #ff6419;
+    color: #30a2c8;
     cursor: pointer;
 }
 
 a:hover {
-    color: #ff9632;
+    color: #05516b;
 }
 /* END: GLOBAL STYLES */
 
@@ -164,8 +164,8 @@ a:hover {
 /* END: SECTION HEADING */
 
 /* START: COMMON UI ELEMENTS */
-.orange {
-    color: #ff6419;
+.otblue {
+    color: #30a2c8;
 }
 
 .btn-half-block {
@@ -268,7 +268,7 @@ a:hover {
 
 
 /* START: ABOUT SECTION*/
-#about .container, #work .container, #team .container, #contact .container {
+#about .container, #work .container, #managingdirector .container, #contact .container {
     background-color: rgba(255, 255, 255, 1);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -394,18 +394,8 @@ a:hover {
 /* END: WORK SECTION*/
 
 /* START: CLIENTS SECTION*/
-#clients {
-    height: auto;
-    background: url('../images/clients.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 #clients .container {
-    background-color: rgba(40, 30, 20, 0.75);
+    background-color: rgba(48, 162, 200, 0.85);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -414,6 +404,10 @@ a:hover {
 
 #clients .desc h2 {
     margin-top: 0px;
+}
+
+#clients .fancy {
+color: #2C3E50;
 }
 
 #clients .desc p {
@@ -429,23 +423,34 @@ a:hover {
 }
 /* END: CLIENTS SECTION*/
 
-/* START: TEAM SECTION*/
-#team .desc h2 {
+/* START: MANAGING DIRECTOR SECTION*/
+
+#managingdirector {
+    height: auto;
+    background: url('../images/clients.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#managingdirector .desc h2 {
     margin-top: 0px;
 }
 
-#team .desc p {
+#managingdirector .desc p {
     margin-bottom: 50px;
 }
 
-#team .person {
+#managingdirector .person {
     height: 400px;
     background-repeat: no-repeat;
     background-position:center;
     margin-bottom: 30px;
 }
 
-#team .person .info {
+#managingdirector .person .info {
     padding-top: 10px;
     position: absolute;
     bottom: 0;
@@ -453,21 +458,21 @@ a:hover {
     margin-left: -15px;
 }
 
-#team .person .info h4 {
+#managingdirector .person .info h4 {
     margin-top: 0px;
     font-weight: 700;
 }
 
-#team .person .info p {
+#managingdirector .person .info p {
     width: 80%;
     margin: auto;
 }
 
-#team .person .info ul {
+#managingdirector .person .info ul {
     font-size: 24px;
     background-color: rgba(255, 255, 255, 0.75);
 }
-/* END: TEAM SECTION*/
+/* END: MANAGING DIRECTOR SECTION*/
 
 /* START: CONTACT SECTION*/
 #contact .desc h2 {
